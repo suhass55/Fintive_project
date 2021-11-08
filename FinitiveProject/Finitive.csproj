@@ -769,7 +769,7 @@
     <Compile Include="Pages\PageConstants\DataValidationPageLocators.cs" />
     <Compile Include="Pages\PageParts\DataValidationPage.cs" />
     <Compile Include="SoftAsertionClass.cs" />
-    <Compile Include="StepsDefinitions\TaxexDataValidationSteps.cs" />
+    <Compile Include="StepsDefinitions\DataValidationSteps.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="Base\BaseClass.cs" />
     <Compile Include="Base\ChromeBrowser.cs" />
@@ -855,7 +855,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Settings.runsettings" />
-    <None Include="TaxExTestData\CompaniesData.json">
+    <None Include="TestData\CompaniesData.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

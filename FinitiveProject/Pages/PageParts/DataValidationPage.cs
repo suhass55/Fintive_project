@@ -28,138 +28,6 @@ namespace Finitive.Pages.PageParts
     public class DataValidationPage : UA
     {
         IWebDriver _localDriver;
-        public string sBaseURL;
-        public string sTestCaseName;
-        public static string NoOfRecords;
-        public static int NoOfDPRRecordsInAtmos;
-        public static string CompName;
-        public static string CompanyName;
-        public static string TaxExMessageType;
-        public static string TaxExMessage;
-        public string Url;
-        public static int noofrecords1 = 0;
-        public static int noofrecords2 = 0;
-        public static int noofrecords3 = 0;
-        public static int noofrecords4 = 0;
-        public static int noofrecords5 = 0;
-        public static int noofrecords6 = 0;
-        public static int noofrecords7 = 0;
-        public static int noofrecords8 = 0;
-        public static int noofrecordsScheduledFilingFederal = 0;
-        public static int noofrecordsHeldFilingFederal = 0;
-        public static int noofrecordsCompletedFilingFederal = 0;
-        public static int noofrecordsSchedulePaymentFederal = 0;
-        public static int noofrecordsHeldPaymentFederal = 0;
-        public static int noofrecordsCompletedPaymentFederal = 0;
-        public static int noofrecordsScheduledPaymentFederal = 0;
-        public static int noofrecordsScheduledFilingState = 0;
-        public static int noofrecordsHeldFilingState = 0;
-        public static int noofrecordsCompletedFilingState = 0;
-        public static int noofrecordsScheduledPaymentState = 0;
-        public static int noofrecordsHeldPaymentState = 0;
-        public static int noofrecordsCompletedPaymentState = 0;
-        public static int noofrecordsScheduledFilingLocal = 0;
-        public static int noofrecordsHeldFilingLocal = 0;
-        public static int noofrecordsCompletedFilingLocal = 0;
-        public static int noofrecordsSchedulePaymentLocal = 0;
-        public static int noofrecordsHeldPaymentLocal = 0;
-        public static int noofrecordsCompletedPaymentLocal = 0;
-
-        public static List<List<string>> CompleteFilingsAtmosData = new List<List<string>>();
-        public static List<List<string>> CompleteFilingTaxExData = new List<List<string>>();
-        public static List<List<string>> ScheduledFilingAtmosData = new List<List<string>>();
-        public static List<List<string>> ScheduledFilingTaxExData = new List<List<string>>();
-        public static List<List<string>> HeldFilingAtmosData = new List<List<string>>();
-        public static List<List<string>> HeldFilingTaxExData = new List<List<string>>();
-        public static List<List<string>> ScheduledPaymentsAtmosData = new List<List<string>>();
-        public static List<List<string>> ScheduledPaymentsTaxExData = new List<List<string>>();
-        public static List<List<string>> HeldPaymentAtmosData = new List<List<string>>();
-        public static List<List<string>> HeldPaymentlstTaxExData = new List<List<string>>();
-        public static List<List<string>> CompletePaymentsAtmosData = new List<List<string>>();
-        public static List<List<string>> CompletePaymentsTaxExData = new List<List<string>>();
-        public static List<List<string>> MissingTaxIDTaxExData = new List<List<string>>();
-        public static List<List<string>> MissingTaxIdAtmosData = new List<List<string>>();
-        //Federal Tab Records List
-        public static List<List<string>> ScheduledFilingsFederalTaxEx = new List<List<string>>();
-        public static List<List<string>> HeldFilingsFederalTaxEx = new List<List<string>>();
-        public static List<List<string>> CompletedFilingsFederalTaxEx = new List<List<string>>();
-        public static List<List<string>> ScheduledPaymentsFederalTaxEx = new List<List<string>>();
-        public static List<List<string>> HeldPaymentsFederalTaxEx = new List<List<string>>();
-        public static List<List<string>> CompletedPaymentsFederalTaxEx = new List<List<string>>();
-        public static List<List<string>> ScheduledFilingsFederalAtmos = new List<List<string>>();
-        public static List<List<string>> HeldFilingsFederalAtmos = new List<List<string>>();
-        public static List<List<string>> CompletedFilingsFederalAtmos = new List<List<string>>();
-        public static List<List<string>> ScheduledPaymentsFederalAtmos = new List<List<string>>();
-        public static List<List<string>> HeldPaymentsFederalAtmos = new List<List<string>>();
-        public static List<List<string>> CompletedPaymentsFederalAtmos = new List<List<string>>();
-
-        //State Tab Records List
-        public static List<List<string>> ScheduledFilingsStateTaxEx = new List<List<string>>();
-        public static List<List<string>> HeldFilingsStateTaxEx = new List<List<string>>();
-        public static List<List<string>> CompletedFilingsStateTaxEx = new List<List<string>>();
-        public static List<List<string>> ScheduledPaymentsStateTaxEx = new List<List<string>>();
-        public static List<List<string>> HeldPaymentsStateTaxEx = new List<List<string>>();
-        public static List<List<string>> CompletedPaymentsStateTaxEx = new List<List<string>>();
-        public static List<List<string>> ScheduledFilingsStateAtmos = new List<List<string>>();
-        public static List<List<string>> HeldFilingsStateAtmos = new List<List<string>>();
-        public static List<List<string>> CompletedFilingsStateAtmos = new List<List<string>>();
-        public static List<List<string>> ScheduledPaymentsStateAtmos = new List<List<string>>();
-        public static List<List<string>> HeldPaymentsStateAtmos = new List<List<string>>();
-        public static List<List<string>> CompletedPaymentsStateAtmos = new List<List<string>>();
-
-        //Local Tab Records List
-        public static List<List<string>> ScheduledFilingsLocalTaxEx = new List<List<string>>();
-        public static List<List<string>> HeldFilingsLocalTaxEx = new List<List<string>>();
-        public static List<List<string>> CompletedFilingsLocalTaxEx = new List<List<string>>();
-        public static List<List<string>> ScheduledPaymentsLocalTaxEx = new List<List<string>>();
-        public static List<List<string>> HeldPaymentsLocalTaxEx = new List<List<string>>();
-        public static List<List<string>> CompletedPaymentsLocalTaxEx = new List<List<string>>();
-        public static List<List<string>> ScheduledFilingsLocalAtmos = new List<List<string>>();
-        public static List<List<string>> HeldFilingsLocalAtmos = new List<List<string>>();
-        public static List<List<string>> CompletedFilingsLocalAtmos = new List<List<string>>();
-        public static List<List<string>> ScheduledPaymentsLocalAtmos = new List<List<string>>();
-        public static List<List<string>> HeldPaymentsLocalAtmos = new List<List<string>>();
-        public static List<List<string>> CompletedPaymentsLocalAtmos = new List<List<string>>();
-
-        // All Filings for Federal , state & Local
-
-        public static List<List<string>> AllFilingsAllTabsTaxEx = new List<List<string>>();
-        public static List<List<string>> AllFilingsFederalTabsTaxEx = new List<List<string>>();
-        public static List<List<string>> AllFilingsStateTabsTaxEx = new List<List<string>>();
-        public static List<List<string>> AllFilingsLocalTabsTaxEx = new List<List<string>>();
-        public static List<List<string>> AllPaymentsAllTabsTaxEx = new List<List<string>>();
-        public static List<List<string>> AllPaymentsFederalTabsTaxEx = new List<List<string>>();
-        public static List<List<string>> AllPaymentsStateTabsTaxEx = new List<List<string>>();
-        public static List<List<string>> AllPaymentsLocalTabsTaxEx = new List<List<string>>();
-        public static List<List<string>> AllFilingsAllTabsAtmos = new List<List<string>>();
-        public static List<List<string>> AllFilingsFederalTabsAtmos = new List<List<string>>();
-        public static List<List<string>> AllFilingsStateTabsAtmos = new List<List<string>>();
-        public static List<List<string>> AllFilingsLocalTabsAtmos = new List<List<string>>();
-        public static List<List<string>> AllPaymentsAllTabsAtmos = new List<List<string>>();
-        public static List<List<string>> AllPaymentsFederalTabsAtmos = new List<List<string>>();
-        public static List<List<string>> AllPaymentsStateTabsAtmos = new List<List<string>>();
-        public static List<List<string>> AllPaymentsLocalTabsAtmos = new List<List<string>>();
-
-        public static List<string> Covid19LinksTaxData = new List<string>();
-        public static List<string> Covid19LinksAtmosData = new List<string>();
-        public Dictionary<string, string> QTDDictionary = new Dictionary<string, string>();
-        public Dictionary<string, string> YTDDictionary = new Dictionary<string, string>();
-        public static List<string> PaymentSummaryAtmosData = new List<string>();
-        public static List<string> TaxCodeDeferralAtmosData = new List<string>();
-
-
-        public BaseClass _BaseClass = null;
-        public ExcelManager _Excelmanager = null;
-
-        public string Tax;
-        public string YTax;
-        public string QtdId;
-        public string YTDId;
-        public string QBCompany;
-        public string YBCompany;
-        public string QERQuarter;
-
-
         ILog log4Net;
         Actions action;
 
@@ -173,7 +41,7 @@ namespace Finitive.Pages.PageParts
             : base(Driver)
         {
             this._localDriver = Driver;
-            log4Net = LogManager.GetLogger("TaxExDataValidationPage");
+            log4Net = LogManager.GetLogger("DataValidationPage");
         }
 
         // Enter username and password for TaxEx application...

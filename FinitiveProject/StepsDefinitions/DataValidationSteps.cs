@@ -38,7 +38,7 @@ namespace Finitive.StepsDefinitions
         public DataValidationSteps(IWebDriver _driver)
         {
             driver = _driver;
-            log4Net = LogManager.GetLogger("TaxExDataValidationSteps");
+            log4Net = LogManager.GetLogger("DataValidationSteps");
             _autoutilities = new AutomationUtilities();
             _DataValidationPage = new DataValidationPage(driver);
             FinitiveTestSetup = TestContext.Parameters["Setup"];

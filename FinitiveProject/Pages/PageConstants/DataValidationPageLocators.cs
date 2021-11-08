@@ -9,7 +9,7 @@ namespace Finitive.Pages.PageConstants
 {
     class DataValidationPageLocators
     {
-        // For QA TaxEx application...
+        // For Finitive application...
         public static By UserNameForTaxEx = By.Id("input-email");
         public static By PasswordForTaxEx = By.Id("input-password");
         public static By SignInButton = By.XPath("//input[@type='submit']");

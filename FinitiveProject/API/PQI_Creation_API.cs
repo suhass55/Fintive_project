@@ -11,7 +11,7 @@ namespace Finitive.API
     public class PQI_Creation_API : IPQI_Creation_API
     {
 
-        public const string tokenUrl = "https://test.salesforce.com/services/oauth2/token";
+        public const string tokenUrl = "https://uat.finitive.com/services/oauth2/token";
         private string serviceUrl;
         private string token;
         HttpClient sfClient;
