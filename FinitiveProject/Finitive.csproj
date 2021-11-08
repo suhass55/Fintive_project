@@ -769,7 +769,6 @@
     <Compile Include="Pages\PageConstants\DataValidationPageLocators.cs" />
     <Compile Include="Pages\PageParts\DataValidationPage.cs" />
     <Compile Include="SoftAsertionClass.cs" />
-    <Compile Include="StepsDefinitions\SampleClass.cs" />
     <Compile Include="StepsDefinitions\TaxexDataValidationSteps.cs" />
     <Compile Include="TestBase.cs" />
     <Compile Include="Base\BaseClass.cs" />
@@ -837,22 +836,22 @@
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Resources\GmailAuth\atmosdatavalidationcredentials.json">
+    <None Include="Resources\GmailAuth\finitivedatavalidationcredentials.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\GmailAuth\atmosdatavalidationtoken.json\Google.Apis.Auth.OAuth2.Responses.TokenResponse-user">
+    <None Include="Resources\GmailAuth\Finitivedatavalidationtoken.json\Google.Apis.Auth.OAuth2.Responses.TokenResponse-user">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\GmailAuth\osvachangepasstestcredentials.json">
+    <None Include="Resources\GmailAuth\finitivechangepasstestcredentials.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\GmailAuth\osvachangepasstesttoken.json\Google.Apis.Auth.OAuth2.Responses.TokenResponse-user">
+    <None Include="Resources\GmailAuth\Finitivechangepasstesttoken.json\Google.Apis.Auth.OAuth2.Responses.TokenResponse-user">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\GmailAuth\osvcustomeremailcredentials.json">
+    <None Include="Resources\GmailAuth\finitivecustomeremailcredentials.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Resources\GmailAuth\osvcustomeremailtoken.json\Google.Apis.Auth.OAuth2.Responses.TokenResponse-user">
+    <None Include="Resources\GmailAuth\Finitivecustomeremailtoken.json\Google.Apis.Auth.OAuth2.Responses.TokenResponse-user">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Settings.runsettings" />
@@ -870,8 +869,6 @@
     <Content Include="extent-config.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\DeferralTaxCode.xml" />
-    <Content Include="Resources\file.txt" />
     <Content Include="Resources\FileLauncher.exe" />
     <Content Include="Resources\HtmlEditor.exe" />
   </ItemGroup>

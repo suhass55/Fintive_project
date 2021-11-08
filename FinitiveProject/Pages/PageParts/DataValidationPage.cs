@@ -196,18 +196,7 @@ namespace Finitive.Pages.PageParts
             log4Net.Info("Password is " + Password);
             SafeType(DataValidationPageLocators.PasswordForTaxEx, Password, false, 10);
         }
-        // enter Username and password for Atmosphere application...
-        public void EnterUserNameAndPasswordForAtmosphere(string UName, string Pwd)
-        {
-            WaitUntilElementIsDisplayed(DataValidationPageLocators.UserNameForAtmos, 20);
-            log4Net.Info("Username is " + UName);
-            SafeSendKeys(DataValidationPageLocators.UserNameForAtmos, UName, 20);
-
-            WaitUntilElementIsDisplayed(DataValidationPageLocators.PasswordForAtmos, 20);
-            log4Net.Info("Password is " + Pwd);
-            SafeSendKeys(DataValidationPageLocators.PasswordForAtmos, Pwd, 20);
-
-        }
+        
 
         public void ClickOnSignupButton()
         {
