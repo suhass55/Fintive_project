@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompanyImport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.crystalsolutioninc.com/CompanyImport2.xsd">
+  <Company TaxExStartDate="2014-01-01" AsOfDate="2014-01-01" Name="PowerOfAttorney120322" Code="PowerOfAttorney120322" ImportAndBalanceFlag="1" ImportDailyDetail="1" ImportQTDDetail="1" ImportYTDDetail="1">
+    <Address>
+      <PhysicalAddress AsOfDate="2014-01-01" Line1="bb" Line2="aa" City="BB City" State="BB" Zip="02908-0101" Country="USA" Note="" />
+      <MailingAddress AsOfDate="2014-01-01" Line1="bb" Line2="aa" City="BB City" State="BB" Zip="02908-0101" Country="USA" Note="" />
+    </Address>
+    <Status AsOfDate="2014-01-01" Status="1" />
+    <ServiceType AsOfDate="2014-01-01" PEO="" PayMaster="">
+      <Status Service="3" CompanyType="1" ThirdPartySickPay="true" />
+    </ServiceType>
+    <Reporting EmployeeWageDetail="true" WorksiteReporting="false" EmployeeW2="true" />
+    <Category Name="KPM" Code="KPMDescription" />
+    <PayCycle Code="KPM" Description="KPM DESCRIPTION">
+      <Status AsOfDate="2014-01-01" Status="1" />
+    </PayCycle>
+    <TaxSetup Code="FE WH" Status="1" EIN="21-1573580" Frequency="Monthly" Rate="0">
+      <Payment Method="1" Status="2" />
+    </TaxSetup>
+    <TaxSetup Code="AZ WH" Status="1" EIN="234567891" Frequency="Quarterly OA" Rate="2">
+      <Payment Method="1" Status="2" />
+    </TaxSetup>
+    <EmployeeSetup SSN="111111111" EmployeeNumber="1011" PayCycleCode="KPM" ReferenceNumber="1011">
+      <EmployeeName AsOfDate="2012-12-31" First="First_Name_B" Last="Last_Name_A" Middle="A" />
+      <Address AsOfDate="2012-12-31" Line1="L2" Line2="L1" City="Ecity" State="AA" Zip="11111" Country="USA" />
+      <EmployeeProfile AsOfDate="2012-01-07" Gender="M" PayType="1" />
+    </EmployeeSetup>
+    <EmployeeSetup SSN="222222222" EmployeeNumber="1012" PayCycleCode="KPM" ReferenceNumber="1012">
+      <EmployeeName AsOfDate="2012-12-31" First="First_Name_B" Last="Last_Name_B" Middle="B" />
+      <Address AsOfDate="2012-12-31" Line1="L2" Line2="L1" City="Ecity" State="BB" Zip="22222" Country="USA" />
+      <EmployeeProfile AsOfDate="2012-01-07" Gender="F" PayType="1" />
+    </EmployeeSetup>
+    <TaxDetail CheckDate="2020-04-30" PayCycleCode="KPM" TaxCode="AZ WH" Resident="false">
+      <EmployeeDetail SSN="111111111" EmployeeNumber="1011">
+        <Daily PeriodStartDate="2018-04-01" PeriodEndDate="2018-04-30" Tax="40" Taxable="2000" Gross="2000" Hours="39" Weeks="1" />
+        <QTD Tax="40" Taxable="2000" Gross="2000" Hours="39" Weeks="1" Month1_12="true" Month2_12="false" Month3_12="false" />
+        <YTD Tax="40" Taxable="2000" Gross="2000" />
+      </EmployeeDetail>
+      <EmployeeDetail SSN="222222222" EmployeeNumber="1012">
+        <Daily PeriodStartDate="2018-04-01" PeriodEndDate="2018-04-30" Tax="30" Taxable="1500" Gross="1500" Hours="39" Weeks="1" />
+        <QTD Tax="30" Taxable="1500" Gross="1500" Hours="39" Weeks="1" Month1_12="true" Month2_12="false" Month3_12="false" />
+        <YTD Tax="30" Taxable="1500" Gross="1500" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2020-05-31" PayCycleCode="KPM" TaxCode="AZ WH" Resident="false">
+      <EmployeeDetail SSN="111111111" EmployeeNumber="1011">
+        <Daily PeriodStartDate="2018-05-01" PeriodEndDate="2017-05-31" Tax="40" Taxable="2000" Gross="2000" Hours="39" Weeks="1" />
+        <QTD Tax="80" Taxable="4000" Gross="4000" Hours="39" Weeks="1" Month1_12="true" Month2_12="true" Month3_12="false" />
+        <YTD Tax="80" Taxable="4000" Gross="4000" />
+      </EmployeeDetail>
+      <EmployeeDetail SSN="222222222" EmployeeNumber="1012">
+        <Daily PeriodStartDate="2018-05-01" PeriodEndDate="2017-05-31" Tax="30" Taxable="1500" Gross="1500" Hours="39" Weeks="1" />
+        <QTD Tax="60" Taxable="3000" Gross="3000" Hours="39" Weeks="1" Month1_12="true" Month2_12="true" Month3_12="false" />
+        <YTD Tax="60" Taxable="3000" Gross="3000" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2020-06-30" PayCycleCode="KPM" TaxCode="AZ WH" Resident="false">
+      <EmployeeDetail SSN="111111111" EmployeeNumber="1011">
+        <Daily PeriodStartDate="2018-06-01" PeriodEndDate="2018-06-30" Tax="40" Taxable="2000" Gross="2000" Hours="39" Weeks="1" />
+        <QTD Tax="120" Taxable="6000" Gross="6000" Hours="39" Weeks="1" Month1_12="true" Month2_12="true" Month3_12="true" />
+        <YTD Tax="120" Taxable="6000" Gross="6000" />
+      </EmployeeDetail>
+      <EmployeeDetail SSN="222222222" EmployeeNumber="1012">
+        <Daily PeriodStartDate="2018-06-01" PeriodEndDate="2018-06-30" Tax="30" Taxable="1500" Gross="1500" Hours="39" Weeks="1" />
+        <QTD Tax="90" Taxable="4500" Gross="4500" Hours="39" Weeks="1" Month1_12="true" Month2_12="true" Month3_12="true" />
+        <YTD Tax="90" Taxable="4500" Gross="4500" />
+      </EmployeeDetail>
+    </TaxDetail>
+  </Company>
+</CompanyImport>

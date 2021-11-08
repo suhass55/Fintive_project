@@ -1,0 +1,1527 @@
+Full project path (Batch Execution):=>>>>>>>D:\Finitive_internal_Triangle\Finitive_26_new\finitive_internal\OneAtmosphere\bin\Debug
+#20: Given Navigate to OSV salesforce and enter username and password
+#17: Given Navigate to OSV salesforce and enter username and password
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to OSV salesforce and enter username and password")]
+        public void GivenNavigateToOSVSalesforceAndEnterUsernameAndPassword()
+        {
+            _scenarioContext.Pending();
+        }
+
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to OSV salesforce and enter username and password")]
+        public void GivenNavigateToOSVSalesforceAndEnterUsernameAndPassword()
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: Then Then click on the All Tabs Link
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Then click on the All Tabs Link")]
+        public void ThenThenClickOnTheAllTabsLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: And Click On Period Schedule link
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click On Period Schedule link")]
+        public void ThenClickOnPeriodScheduleLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#20: Then Create Banking Sweep
+  --- table step argument ---
+  | Amount | TransactionType   |
+  | 500    | Internal Transfer |
+#17: Then Create Period Schedule
+  --- table step argument ---
+  | PeriodScheduleName | AccountName        | TenantName                | Frequency | ExternalId | Country |
+  | AutoPS             | Automation Company | Automation Company Tenant | Weekly    | 1          | USA     |
+#16: Given Navigate to Atmosphere application as the user 'PayrollTaxContactUserName'
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Banking Sweep")]
+        public void ThenCreateBankingSweep(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#20: Then Create New Money Transaction
+  --- table step argument ---
+  | AccountName        | TenantName                | Status | TransactionType | MoneyMovementType | TotalDollarAmount | AdjustedTotalDollarAmount | BankName | BankAccountNumber |
+  | Automation Company | Automation Company Tenant | New    | Payroll Refund  | ACH               | 550               | 400                       | Chase    | 123456789         |
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create New Money Transaction")]
+        public void ThenCreateNewMoneyTransaction(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#20: Then Change the Money Transaction to Approved state and link the Banking Sweep
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Period Schedule")]
+        public void ThenCreatePeriodSchedule(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: Then Click on new pay period button
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Change the Money Transaction to Approved state and link the Banking Sweep")]
+        public void ThenChangeTheMoneyTransactionToApprovedStateAndLinkTheBankingSweep()
+        {
+            _scenarioContext.Pending();
+        }
+
+#20: Then Change Banking Sweep Status to Released
+-> #16: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)'")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUser(string payrollTaxContactUserName)
+        {
+            _scenarioContext.Pending();
+        }
+
+#16: Then Click on ViewDetails icon under Tax section
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on new pay period button")]
+        public void ThenClickOnNewPayPeriodButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: Then Create new Pay period
+  --- table step argument ---
+  | PayPeriodName | AccountName        | TenantName                | Frequency | SettlementDate         |
+  | AutoPP        | Automation Company | Automation Company Tenant | Weekly    | Before Settlement Date |
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Change Banking Sweep Status to Released")]
+        public void ThenChangeBankingSweepStatusToReleased()
+        {
+            _scenarioContext.Pending();
+        }
+
+#20: Then Close all the tabs except first tab
+-> #16: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on ViewDetails icon under Tax section")]
+        public void ThenClickOnViewDetailsIconUnderTaxSection()
+        {
+            _scenarioContext.Pending();
+        }
+
+#16: Then Verify the links in taxdetail page in New window
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create new Pay period")]
+        public void ThenCreateNewPayPeriod(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: And Click on New Pay Group Detail button
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Close all the tabs except first tab")]
+        public void ThenCloseAllTheTabsExceptFirstTab()
+        {
+            _scenarioContext.Pending();
+        }
+
+#20: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #16: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify the links in taxdetail page in New window")]
+        public void ThenVerifyTheLinksInTaxdetailPageInNewWindow()
+        {
+            _scenarioContext.Pending();
+        }
+
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on New Pay Group Detail button")]
+        public void ThenClickOnNewPayGroupDetailButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: Then Create New Pay Group Detail
+  --- table step argument ---
+  | AccountName        | TenantName                | Currency          | DisabledFlag | DashboardApplicableFlag |
+  | Automation Company | Automation Company Tenant | USD - U.S. Dollar | false        | true                    |
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create New Pay Group Detail")]
+        public void ThenCreateNewPayGroupDetail(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: And Click on new pay period with pay group details button
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName)
+        {
+            _scenarioContext.Pending();
+        }
+
+#20: Then Click on ViewDetails icon under Treasury section
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on new pay period with pay group details button")]
+        public void ThenClickOnNewPayPeriodWithPayGroupDetailsButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: Then Create new pay period with pay group details
+  --- table step argument ---
+  | AccountName        | TenantName                |
+  | Automation Company | Automation Company Tenant |
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create new pay period with pay group details")]
+        public void ThenCreateNewPayPeriodWithPayGroupDetails(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: And Click on the new payroll group button
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on ViewDetails icon under Treasury section")]
+        public void ThenClickOnViewDetailsIconUnderTreasurySection()
+        {
+            _scenarioContext.Pending();
+        }
+
+#20: And Navigate to fully funded tab
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on the new payroll group button")]
+        public void ThenClickOnTheNewPayrollGroupButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: Then Create new Payroll group details
+  --- table step argument ---
+  | PayrollGroupName | AccountName        | TenantName                | CurrencyCode | TotalNetAmount | TotalNetAmountSettled | TotalTaxAmount | TotalTaxAmountSettled | TotalGarnishmentAmount | TotalGarnishmentAmountSettled |
+  | AutoPG           | Automation Company | Automation Company Tenant | USD          | 0              | 0                     | 0              | 0                     | 0                      | 0                             |
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to fully funded tab")]
+        public void ThenNavigateToFullyFundedTab()
+        {
+            _scenarioContext.Pending();
+        }
+
+#20: Then Verify the Money Transaction under Fully Funded tab
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create new Payroll group details")]
+        public void ThenCreateNewPayrollGroupDetails(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #20: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify the Money Transaction under Fully Funded tab")]
+        public void ThenVerifyTheMoneyTransactionUnderFullyFundedTab()
+        {
+            _scenarioContext.Pending();
+        }
+
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: Then Click on view details link
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on view details link")]
+        public void ThenClickOnViewDetailsLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: Then Verify Pay Period is not delayed
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Pay Period is not delayed")]
+        public void ThenVerifyPayPeriodIsNotDelayed()
+        {
+            _scenarioContext.Pending();
+        }
+
+#17: And Verify Pay Period status as 'Pending Completion' , Pay Group status as 'Not Complete' and verify other details with Salesforce
+-> #17: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Pay Period status as '(.*)' , Pay Group status as '(.*)' and verify other details with Salesforce")]
+        public void ThenVerifyPayPeriodStatusAsPayGroupStatusAsAndVerifyOtherDetailsWithSalesforce(string p0, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to OSV salesforce and enter username and password
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to OSV salesforce and enter username and password")]
+        public void GivenNavigateToOSVSalesforceAndEnterUsernameAndPassword()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode           | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C01- Incorrect Account Number | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode           | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C02- Incorrect Routing Number | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode                        | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C03- Incorrect Routing and Account Numbers | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode           | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C04- Bank account name change | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode        | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C05- Incorrect Transc code | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode                                 | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C06- Incorrect Bank Account Number and transit code | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode                                                 | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C07- Incorrect Routing number, Bank account number and payment code | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode                 | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C09- Incorrect individual ID number | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode         | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C10- Incorrect company name | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+#19: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode       | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C11- Incorrect company ID | New    | false              |
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Then Navigate to Home Page
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Home Page")]
+        public void ThenNavigateToHomePage()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: And Click on User Admin Link
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on User Admin Link")]
+        public void ThenClickOnUserAdminLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Then Click on 'OSVS AutoUser1' Username who is not User Admin
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Launch OSV Salesforce Portal
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on '(.*)' Username who is not User Admin")]
+        public void ThenClickOnUsernameWhoIsNotUserAdmin(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: And Assign permissions to the User and click on Save button
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Launch OSV Salesforce Portal")]
+        public void GivenLaunchOSVSalesforcePortal()
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Create Treasury Exception
+  --- table step argument ---
+  | Account            | Tenant                    | ExceptionType | ExceptionReasonCode                        | Status | IsCheckStopPayment |
+  | Automation Company | Automation Company Tenant | ACH Return    | C11- Incorrect company name and company ID | New    | false              |
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Assign permissions to the User and click on Save button")]
+        public void ThenAssignPermissionsToTheUserAndClickOnSaveButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Given Navigate to Atmosphere application as the user 'OSVS AutoUser1' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Create Treasury Exception")]
+        public void ThenCreateTreasuryException(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#18: Then Click on Treasury Exception link
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Treasury Exception link")]
+        public void ThenClickOnTreasuryExceptionLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Then Verify the permissions for that User
+#18: Then Verify Treasury Exception is displayed with Exception Reason Code
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify the permissions for that User")]
+        public void ThenVerifyThePermissionsForThatUser()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Then Ensure that selected permissions should be enabled for that User
+-> #18: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify Treasury Exception is displayed with Exception Reason Code")]
+        public void ThenVerifyTreasuryExceptionIsDisplayedWithExceptionReasonCode()
+        {
+            _scenarioContext.Pending();
+        }
+
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Ensure that selected permissions should be enabled for that User")]
+        public void ThenEnsureThatSelectedPermissionsShouldBeEnabledForThatUser()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Given Navigate to Atmosphere application as the user 'AtmosContactUserName' on Same Tab
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Then Navigate to Home Page
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Home Page")]
+        public void ThenNavigateToHomePage()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: And Click on User Admin Link
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on User Admin Link")]
+        public void ThenClickOnUserAdminLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Then Click on 'OSVS AutoUser1' Username who is not User Admin
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on '(.*)' Username who is not User Admin")]
+        public void ThenClickOnUsernameWhoIsNotUserAdmin(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: And Remove permissions to the User and click on Save button
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Remove permissions to the User and click on Save button")]
+        public void ThenRemovePermissionsToTheUserAndClickOnSaveButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Given Navigate to Atmosphere application as the user 'OSVS AutoUser1' on Same Tab
+#15: Given Navigate to TaxEx url and enter username and password
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: Then Verify the Permissions are removed for that User
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Verify the Permissions are removed for that User")]
+        public void ThenVerifyThePermissionsAreRemovedForThatUser()
+        {
+            _scenarioContext.Pending();
+        }
+
+#19: And Ensure that selected permissions should be removed for that User
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to TaxEx url and enter username and password")]
+        public void GivenNavigateToTaxExUrlAndEnterUsernameAndPassword()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to Process > Import screen
+-> #19: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Ensure that selected permissions should be removed for that User")]
+        public void ThenEnsureThatSelectedPermissionsShouldBeRemovedForThatUser()
+        {
+            _scenarioContext.Pending();
+        }
+
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Process > Import screen")]
+        public void ThenNavigateToProcessImportScreen()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Import 'XMLForReconcilationPacket' Xml into application for portlet for 'Downloads'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Import '(.*)' Xml into application for portlet for '(.*)'")]
+        public void ThenImportXmlIntoApplicationForPortletFor(string xMLForReconcilationPacket, string downloads)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: And Update the TaxEx Test Data File for the Test Script 'TC_36508'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Update the TaxEx Test Data File for the Test Script '(.*)'")]
+        public void ThenUpdateTheTaxExTestDataFileForTheTestScript(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate back to TaxEx
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate back to TaxEx")]
+        public void ThenNavigateBackToTaxEx()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to Process > Schedule screen and filter with the company name
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Process > Schedule screen and filter with the company name")]
+        public void ThenNavigateToProcessScheduleScreenAndFilterWithTheCompanyName()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: And Schedule all the records
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Schedule all the records")]
+        public void ThenScheduleAllTheRecords()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to Company > QTD Status screen and filter with the company name
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Company > QTD Status screen and filter with the company name")]
+        public void ThenNavigateToCompanyQTDStatusScreenAndFilterWithTheCompanyName()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Filter with 'current' year
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Filter with '(.*)' year")]
+        public void ThenFilterWithYear(string current)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: And Generate and publish company packets quarter wise for 'current' year
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Generate and publish company packets quarter wise for '(.*)' year")]
+        public void ThenGenerateAndPublishCompanyPacketsQuarterWiseForYear(string current0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Filter with 'previous' year
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Filter with '(.*)' year")]
+        public void ThenFilterWithYear(string previous)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: And Generate and publish company packets quarter wise for 'Previous' year
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Generate and publish company packets quarter wise for '(.*)' year")]
+        public void ThenGenerateAndPublishCompanyPacketsQuarterWiseForYear(string previous0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to QA Admin site for 'PayrollTaxContactUserName'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to QA Admin site for '(.*)'")]
+        public void ThenNavigateToQAAdminSiteFor(string payrollTaxContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to Company tab in QA Admin Site and filter with company name
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Company tab in QA Admin Site and filter with company name")]
+        public void ThenNavigateToCompanyTabInQAAdminSiteAndFilterWithCompanyName()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Given Navigate to Atmosphere application as the user 'PayrollTaxContactUserName'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Given(@"Navigate to Atmosphere application as the user '(.*)'")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUser(string payrollTaxContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on ViewDetails icon under Tax section
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on ViewDetails icon under Tax section")]
+        public void ThenClickOnViewDetailsIconUnderTaxSection()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: And Get the Data from TaxEx Test Data File for the Test Script 'TC_36508' and Assign them to the user
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Get the Data from TaxEx Test Data File for the Test Script '(.*)' and Assign them to the user")]
+        public void ThenGetTheDataFromTaxExTestDataFileForTheTestScriptAndAssignThemToTheUser(string p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on the Company Set Up under downloads link in Tax Dashboard and verify the downloaded file
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on the Company Set Up under downloads link in Tax Dashboard and verify the downloaded file")]
+        public void ThenClickOnTheCompanySetUpUnderDownloadsLinkInTaxDashboardAndVerifyTheDownloadedFile()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on the Company Tax Up under downloads link in Tax Dashboard and verify the downloaded file
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on the Company Tax Up under downloads link in Tax Dashboard and verify the downloaded file")]
+        public void ThenClickOnTheCompanyTaxUpUnderDownloadsLinkInTaxDashboardAndVerifyTheDownloadedFile()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on the all company packets and reconciliation packets under Current Year and verify downloads
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on the all company packets and reconciliation packets under Current Year and verify downloads")]
+        public void ThenClickOnTheAllCompanyPacketsAndReconciliationPacketsUnderCurrentYearAndVerifyDownloads()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on the all company packets and reconciliation packets under Previous Year and verify downloads
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on the all company packets and reconciliation packets under Previous Year and verify downloads")]
+        public void ThenClickOnTheAllCompanyPacketsAndReconciliationPacketsUnderPreviousYearAndVerifyDownloads()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Naviagte back to OSV AtmospherePage
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Naviagte back to OSV AtmospherePage")]
+        public void ThenNaviagteBackToOSVAtmospherePage()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on view details link
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on view details link")]
+        public void ThenClickOnViewDetailsLink()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to Off Cycles tab
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Off Cycles tab")]
+        public void ThenNavigateToOffCyclesTab()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'Payroll OffCycle Detail' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string p0, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to Check Registers tab
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Check Registers tab")]
+        public void ThenNavigateToCheckRegistersTab()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'UnCashed Check Detail' File Name and Button Value as '2'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string p0, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to Exceptions tab
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Exceptions tab")]
+        public void ThenNavigateToExceptionsTab()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'Treasury Exception Detail' File Name and Button Value as '3'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string p0, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Naviagte back to OSV AtmospherePage
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Naviagte back to OSV AtmospherePage")]
+        public void ThenNaviagteBackToOSVAtmospherePage()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on ViewDetails icon under Treasury section
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on ViewDetails icon under Treasury section")]
+        public void ThenClickOnViewDetailsIconUnderTreasurySection()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'Treasury Not Fully Funded' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string p0, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to fully funded tab
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to fully funded tab")]
+        public void ThenNavigateToFullyFundedTab()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'Treasury Fully Funded' File Name and Button Value as '2'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string p0, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Naviagte back to OSV AtmospherePage
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Naviagte back to OSV AtmospherePage")]
+        public void ThenNaviagteBackToOSVAtmospherePage()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on ViewDetails icon under Garnishment Worklet
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on ViewDetails icon under Garnishment Worklet")]
+        public void ThenClickOnViewDetailsIconUnderGarnishmentWorklet()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then click on download link and Verify 'WithholdingImpoundAnalysisSummary' File Name and Category Type as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"click on download link and Verify '(.*)' File Name and Category Type as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerifyFileNameAndCategoryTypeAs(string withholdingImpoundAnalysisSummary, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then click on download link and Verify 'WithholdingPaymentSummary' File Name and Category Type as '2'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"click on download link and Verify '(.*)' File Name and Category Type as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerifyFileNameAndCategoryTypeAs(string withholdingPaymentSummary, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Naviagte back to OSV AtmospherePage
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Naviagte back to OSV AtmospherePage")]
+        public void ThenNaviagteBackToOSVAtmospherePage()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on View Details under Invoice Coding Rule section
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on View Details under Invoice Coding Rule section")]
+        public void ThenClickOnViewDetailsUnderInvoiceCodingRuleSection()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Navigate to Suppliers tab
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Navigate to Suppliers tab")]
+        public void ThenNavigateToSuppliersTab()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'FAO Suppliers Export' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string p0, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Naviagte back to OSV AtmospherePage
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Naviagte back to OSV AtmospherePage")]
+        public void ThenNaviagteBackToOSVAtmospherePage()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on ViewDetails icon under Tax section
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on ViewDetails icon under Tax section")]
+        public void ThenClickOnViewDetailsIconUnderTaxSection()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then click on download link and Verify 'ImpoundAnalysisSummaryDetails' File Name and Category Type as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"click on download link and Verify '(.*)' File Name and Category Type as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerifyFileNameAndCategoryTypeAs(string impoundAnalysisSummaryDetails, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then click on download link and Verify 'DailyProcessingSummaryDetails' File Name and Category Type as '2'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"click on download link and Verify '(.*)' File Name and Category Type as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerifyFileNameAndCategoryTypeAs(string dailyProcessingSummaryDetails, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then click on download link and Verify 'QuarterlyBalncingAllTaxDetails' File Name and Category Type as '3'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"click on download link and Verify '(.*)' File Name and Category Type as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerifyFileNameAndCategoryTypeAs(string quarterlyBalncingAllTaxDetails, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then click on download link and Verify 'QuarterEndSummaryDetails' File Name and Category Type as '4'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"click on download link and Verify '(.*)' File Name and Category Type as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerifyFileNameAndCategoryTypeAs(string quarterEndSummaryDetails, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then click on download link and Verify 'YearlyBalancingDetail' File Name and Category Type as '5'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"click on download link and Verify '(.*)' File Name and Category Type as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerifyFileNameAndCategoryTypeAs(string yearlyBalancingDetail, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then click on download link and Verify 'YearEndSummaryDetails' File Name and Category Type as '6'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"click on download link and Verify '(.*)' File Name and Category Type as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerifyFileNameAndCategoryTypeAs(string yearEndSummaryDetails, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: And Click on Covid19 Supplemental Form Data Link
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Covid(.*) Supplemental Form Data Link")]
+        public void ThenClickOnCovidSupplementalFormDataLink(int p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'Supplemental_Form' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string p0, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on Navigate back button
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Navigate back button")]
+        public void ThenClickOnNavigateBackButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: And Click on Covid19 Deferred Liabilites link
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Covid(.*) Deferred Liabilites link")]
+        public void ThenClickOnCovidDeferredLiabilitesLink(int p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'CovidDeferredLiability' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string covidDeferredLiability, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on Navigate back button
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Navigate back button")]
+        public void ThenClickOnNavigateBackButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: And Click on Covid19 Federal Tax Credit Link
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Covid(.*) Federal Tax Credit Link")]
+        public void ThenClickOnCovidFederalTaxCreditLink(int p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'FederalTaxCredit' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string federalTaxCredit, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on Navigate back button
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Navigate back button")]
+        public void ThenClickOnNavigateBackButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: And Click on Covid19 Deferred Tax Code Link
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Covid(.*) Deferred Tax Code Link")]
+        public void ThenClickOnCovidDeferredTaxCodeLink(int p0)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'TaxDeferralStatus' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string taxDeferralStatus, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on Navigate back button
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Navigate back button")]
+        public void ThenClickOnNavigateBackButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on Missing Power of Attorney link in Atmosphere
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Missing Power of Attorney link in Atmosphere")]
+        public void ThenClickOnMissingPowerOfAttorneyLinkInAtmosphere()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'MissingPoA' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string missingPoA, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on Navigate back button
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Navigate back button")]
+        public void ThenClickOnNavigateBackButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on Invalid SSN link in atmosphere
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Invalid SSN link in atmosphere")]
+        public void ThenClickOnInvalidSSNLinkInAtmosphere()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'InvalidSSN' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string invalidSSN, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on Navigate back button
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Navigate back button")]
+        public void ThenClickOnNavigateBackButton()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on Missing Tax Id/Account link in atmosphere
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on Missing Tax Id/Account link in atmosphere")]
+        public void ThenClickOnMissingTaxIdAccountLinkInAtmosphere()
+        {
+            _scenarioContext.Pending();
+        }
+
+#15: Then Click on download link and Verfity 'MissingTaxIdOrAccountNumber' File Name and Button Value as '1'
+-> #15: No matching step definition found for the step. Use the following code to create one:
+        [Then(@"Click on download link and Verfity '(.*)' File Name and Button Value as '(.*)'")]
+        public void ThenClickOnDownloadLinkAndVerfityFileNameAndButtonValueAs(string missingTaxIdOrAccountNumber, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+
+No matching step definition found for one or more steps.
+using System;
+using TechTalk.SpecFlow;
+
+namespace MyNamespace
+{
+    [Binding]
+    public class StepDefinitions
+    {
+        private readonly ScenarioContext _scenarioContext;
+
+        public StepDefinitions(ScenarioContext scenarioContext)
+        {
+            _scenarioContext = scenarioContext;
+        }
+        [Given(@"Navigate to OSV salesforce and enter username and password")]
+        public void GivenNavigateToOSVSalesforceAndEnterUsernameAndPassword()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Given(@"Navigate to Atmosphere application as the user '(.*)' on Same Tab")]
+        public void GivenNavigateToAtmosphereApplicationAsTheUserOnSameTab(string atmosContactUserName0)
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Then click on the All Tabs Link")]
+        public void ThenThenClickOnTheAllTabsLink()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Click On Period Schedule link")]
+        public void ThenClickOnPeriodScheduleLink()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Create Period Schedule")]
+        public void ThenCreatePeriodSchedule(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Click on new pay period button")]
+        public void ThenClickOnNewPayPeriodButton()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Create new Pay period")]
+        public void ThenCreateNewPayPeriod(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Click on New Pay Group Detail button")]
+        public void ThenClickOnNewPayGroupDetailButton()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Create New Pay Group Detail")]
+        public void ThenCreateNewPayGroupDetail(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Click on new pay period with pay group details button")]
+        public void ThenClickOnNewPayPeriodWithPayGroupDetailsButton()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Create new pay period with pay group details")]
+        public void ThenCreateNewPayPeriodWithPayGroupDetails(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Click on the new payroll group button")]
+        public void ThenClickOnTheNewPayrollGroupButton()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Create new Payroll group details")]
+        public void ThenCreateNewPayrollGroupDetails(Table table)
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Click on view details link")]
+        public void ThenClickOnViewDetailsLink()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Verify Pay Period is not delayed")]
+        public void ThenVerifyPayPeriodIsNotDelayed()
+        {
+            _scenarioContext.Pending();
+        }
+        
+        [Then(@"Verify Pay Period status as '(.*)' , Pay Group status as '(.*)' and verify other details with Salesforce")]
+        public void ThenVerifyPayPeriodStatusAsPayGroupStatusAsAndVerifyOtherDetailsWithSalesforce(string p0, string p1)
+        {
+            _scenarioContext.Pending();
+        }
+    }
+}

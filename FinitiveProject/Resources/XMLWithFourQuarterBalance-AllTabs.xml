@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CompanyImport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.crystalsolutioninc.com/CompanyImport2.xsd">
+  <Company TaxExStartDate="2014-01-01" AsOfDate="2014-01-01" Name="AutoCompany-351433262" Code="AutoCompany-351433262" ImportAndBalanceFlag="1" ImportDailyDetail="1" ImportQTDDetail="1" ImportYTDDetail="1">
+    <Address>
+      <PhysicalAddress AsOfDate="2016-01-01" Line1="Jenkins Address" Line2="Suite 250" City="KK City" State="KK" Zip="02908-0101" Country="USA" Note="" />
+      <MailingAddress AsOfDate="2016-01-01" Line1="MyMailing Address" Line2="Suite 252" City="KL City" State="KL" Zip="02908-0101" Country="USA" Note="" />
+    </Address>
+    <Status AsOfDate="2016-01-01" Status="1" />
+    <ServiceType AsOfDate="2016-01-01" PEO="" PayMaster="">
+      <Status Service="3" CompanyType="1" ThirdPartySickPay="true" />
+    </ServiceType>
+    <Reporting EmployeeWageDetail="true" WorksiteReporting="false" EmployerW2Reporting="true" EmployeeW2="true" />
+    <Category Name="ROB" Code="ROBDescription" />
+    <Contact Title="MANAGER" Email="manager@RABresourcescom">
+      <Name First="Dennis" Last="Menace" Middle="The" />
+      <Phone CountryCode="1" AreaCode="707" LocalNumber="5447938" />
+      <Fax CountryCode="1" AreaCode="707" LocalNumber="5442424" />
+      <Address AsOfDate="2016-01-01" Line1="2021 Burbank Avenue" Line2="" City="Santa Rosa" State="CA" Zip="95407" Country="USA" Note="XXXXX  This is a NOTE XXXXX" />
+    </Contact>
+    <PayCycle Code="RAB" Description="RAB DESCRIPTION">
+      <Status AsOfDate="2016-01-01" Status="1" />
+    </PayCycle>
+    <TaxSetup Code="FE WH" EIN="96-1230500" Frequency="Monthly" Status="1">
+      <Payment Method="1" Status="2" />
+    </TaxSetup>
+    <TaxSetup Code="MO WH" Status="1" EIN="25774563" Frequency="Quarterly OA">
+      <Payment Method="1" Status="2" />
+    </TaxSetup>
+    <TaxSetup Code="41 - 82800" EIN="12-3454849" Frequency="Quarterly OA" Status="1">
+      <Payment Method="1" Status="2" />
+    </TaxSetup>
+    <EmployeeSetup AsOfDate="2012-12-31" SSN="111111986" PayCycleCode="RAB" ReferenceNumber="1986" EmployeeNumber="1986">
+      <EmployeeName AsOfDate="2012-12-31" First="FIRST_NAME_E1" Last="LAST_NAME_E1" Middle="A" />
+      <Address AsOfDate="2012-12-31" Line1="111 Employee1 Ave" Line2="" City="EMPLOYEE1 CITY" State="AA" Zip="11111" Country="USA" />
+      <EmployeeProfile AsOfDate="2012-07-01" Gender="F" PayType="1" />
+    </EmployeeSetup>
+    <!--FE WH-->
+    <!-- Quarter 1-->
+    <TaxDetail CheckDate="2021-01-31" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-01-01" PeriodEndDate="2021-01-31" Tax="10.00" Taxable="200.00" Gross="200.00" Hours="39" Weeks="1" />
+        <QTD Tax="10.00" Taxable="200.00" Gross="2000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="10.00" Taxable="200.00" Gross="2000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-02-28" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-02-01" PeriodEndDate="2021-02-28" Tax="10.00" Taxable="200.00" Gross="200.00" Hours="39" Weeks="1" />
+        <QTD Tax="20.00" Taxable="400.00" Gross="400.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="20.00" Taxable="400.00" Gross="400.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-03-31" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-03-01" PeriodEndDate="2021-03-31" Tax="10.00" Taxable="200.00" Gross="200.00" Hours="39" Weeks="1" />
+        <QTD Tax="30.00" Taxable="600.00" Gross="600.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="30.00" Taxable="600.00" Gross="600.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--FE WH-->
+    <!-- Quarter 2-->
+    <TaxDetail CheckDate="2021-04-30" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-04-01" PeriodEndDate="2021-04-30" Tax="15.00" Taxable="250.00" Gross="250.00" Hours="39" Weeks="1" />
+        <QTD Tax="15.00" Taxable="250.00" Gross="250.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="45.00" Taxable="850.00" Gross="850.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-05-31" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-05-01" PeriodEndDate="2021-05-31" Tax="15.00" Taxable="250.00" Gross="250.00" Hours="39" Weeks="1" />
+        <QTD Tax="30.00" Taxable="500.00" Gross="500.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="60.00" Taxable="1100.00" Gross="1100.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-06-30" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-06-01" PeriodEndDate="2021-06-30" Tax="15.00" Taxable="250.00" Gross="250.00" Hours="39" Weeks="1" />
+        <QTD Tax="45.00" Taxable="750.00" Gross="750.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="75.00" Taxable="1350.00" Gross="1350.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--FE WH-->
+    <!-- Quarter 3-->
+    <TaxDetail CheckDate="2021-07-31" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-07-01" PeriodEndDate="2021-07-31" Tax="20.00" Taxable="300.00" Gross="300.00" Hours="39" Weeks="1" />
+        <QTD Tax="20.00" Taxable="300.00" Gross="300.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="95.00" Taxable="1650.00" Gross="1650.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-08-31" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-08-01" PeriodEndDate="2021-08-31" Tax="20.00" Taxable="300.00" Gross="300.00" Hours="39" Weeks="1" />
+        <QTD Tax="40.00" Taxable="600.00" Gross="600.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="115.00" Taxable="1950.00" Gross="2000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-09-30" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-09-01" PeriodEndDate="2021-09-30" Tax="20.00" Taxable="300.00" Gross="300.00" Hours="39" Weeks="1" />
+        <QTD Tax="60.00" Taxable="900.00" Gross="900.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="135.00" Taxable="2250.00" Gross="2250.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--FE WH-->
+    <!-- Quarter 4-->
+    <TaxDetail CheckDate="2021-10-31" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-10-01" PeriodEndDate="2021-10-31" Tax="25.00" Taxable="350.00" Gross="350.00" Hours="39" Weeks="1" />
+        <QTD Tax="25.00" Taxable="350.00" Gross="350.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="160.00" Taxable="2600.00" Gross="2600.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-11-30" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-11-01" PeriodEndDate="2021-11-30" Tax="25.00" Taxable="350.00" Gross="350.00" Hours="39" Weeks="1" />
+        <QTD Tax="50.00" Taxable="700.00" Gross="700.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="185.00" Taxable="2950.00" Gross="2950.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-12-24" PayCycleCode="RAB" TaxCode="FE WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-12-01" PeriodEndDate="2021-12-31" Tax="25.00" Taxable="350.00" Gross="350.00" Hours="39" Weeks="1" />
+        <QTD Tax="75.00" Taxable="1050.00" Gross="1050.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="210.00" Taxable="3350.00" Gross="3350.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--MO WH-->
+    <!-- Quarter 1-->
+    <TaxDetail CheckDate="2021-01-31" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-01-01" PeriodEndDate="2021-01-31" Tax="60.00" Taxable="1000.00" Gross="1000.00" Hours="39" Weeks="1" />
+        <QTD Tax="60.00" Taxable="1000.00" Gross="1000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="60.00" Taxable="1000.00" Gross="1000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-02-28" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-02-01" PeriodEndDate="2021-02-28" Tax="60.00" Taxable="1000.00" Gross="1000.00" Hours="39" Weeks="1" />
+        <QTD Tax="120.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="120.00" Taxable="2000.00" Gross="2000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-03-31" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-03-01" PeriodEndDate="2021-03-31" Tax="60.00" Taxable="1000.00" Gross="1000.00" Hours="39" Weeks="1" />
+        <QTD Tax="185.00" Taxable="3000.00" Gross="3000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="180.00" Taxable="3000.00" Gross="3000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--MO WH-->
+    <!-- Quarter 2-->
+    <TaxDetail CheckDate="2021-04-30" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-04-01" PeriodEndDate="2021-04-30" Tax="65.00" Taxable="1500.00" Gross="1500.00" Hours="39" Weeks="1" />
+        <QTD Tax="65.00" Taxable="1500.00" Gross="1500.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="245.00" Taxable="4500.00" Gross="4500.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-05-31" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-05-01" PeriodEndDate="2021-05-31" Tax="65.00" Taxable="1500.00" Gross="1500.00" Hours="39" Weeks="1" />
+        <QTD Tax="130.00" Taxable="3000.00" Gross="3000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="310.00" Taxable="6000.00" Gross="6000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-06-30" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-06-01" PeriodEndDate="2021-06-30" Tax="65.00" Taxable="1500.00" Gross="1500.00" Hours="39" Weeks="1" />
+        <QTD Tax="225.00" Taxable="4500.00" Gross="4500.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="375.00" Taxable="7500.00" Gross="7500.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--MO WH-->
+    <!-- Quarter 3-->
+    <TaxDetail CheckDate="2021-07-31" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-07-01" PeriodEndDate="2021-07-31" Tax="70.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="70.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="445.00" Taxable="9500.00" Gross="9500.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-08-31" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-08-01" PeriodEndDate="2021-08-31" Tax="70.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="140.00" Taxable="4000.00" Gross="4000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="515.00" Taxable="11500.00" Gross="11500.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-09-30" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-09-01" PeriodEndDate="2021-09-30" Tax="70.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="510.00" Taxable="6000.00" Gross="6000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="585.00" Taxable="13500.00" Gross="13500.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--MO WH-->
+    <!-- Quarter 4-->
+    <TaxDetail CheckDate="2021-10-31" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-10-01" PeriodEndDate="2021-10-31" Tax="75.00" Taxable="2500.00" Gross="2500.00" Hours="39" Weeks="1" />
+        <QTD Tax="75.00" Taxable="2500.00" Gross="2500.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="660.00" Taxable="16000.00" Gross="16000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-11-30" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-11-01" PeriodEndDate="2021-11-30" Tax="75.00" Taxable="2500.00" Gross="2500.00" Hours="39" Weeks="1" />
+        <QTD Tax="150.00" Taxable="5000.00" Gross="5000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="735.00" Taxable="18500.00" Gross="18500.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-12-24" PayCycleCode="RAB" TaxCode="MO WH" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-12-01" PeriodEndDate="2021-12-31" Tax="75.00" Taxable="2500.00" Gross="2500.00" Hours="39" Weeks="1" />
+        <QTD Tax="2225.00" Taxable="8000.00" Gross="8500.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="810.00" Taxable="22000.00" Gross="22000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--41 - 82800-->
+    <!-- Quarter 1-->
+    <TaxDetail CheckDate="2021-01-31" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-01-01" PeriodEndDate="2021-01-31" Tax="40.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="40.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="40.00" Taxable="2000.00" Gross="2000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-02-28" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-02-01" PeriodEndDate="2021-02-28" Tax="40.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="80.00" Taxable="4000.00" Gross="4000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="80.00" Taxable="4000.00" Gross="4000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-03-31" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-03-01" PeriodEndDate="2021-03-31" Tax="40.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="120.00" Taxable="6000.00" Gross="6000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="120.00" Taxable="6000.00" Gross="6000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--41 - 82800-->
+    <!-- Quarter 2-->
+    <TaxDetail CheckDate="2021-04-30" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-04-01" PeriodEndDate="2021-04-30" Tax="45.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="45.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="165.00" Taxable="8000.00" Gross="8000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-05-31" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-05-01" PeriodEndDate="2021-05-31" Tax="45.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="90.00" Taxable="4000.00" Gross="4000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="210.00" Taxable="10000.00" Gross="10000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-06-30" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-06-01" PeriodEndDate="2021-06-30" Tax="45.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="135.00" Taxable="6000.00" Gross="6000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="255.00" Taxable="12000.00" Gross="12000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--41 - 82800-->
+    <!-- Quarter 3-->
+    <TaxDetail CheckDate="2021-07-31" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-07-01" PeriodEndDate="2021-07-31" Tax="50.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="50.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="305.00" Taxable="14000.00" Gross="14000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-08-31" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-08-01" PeriodEndDate="2021-08-31" Tax="50.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="100.00" Taxable="4000.00" Gross="4000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="355.00" Taxable="16000.00" Gross="16000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-09-30" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-09-01" PeriodEndDate="2021-09-30" Tax="50.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="150.00" Taxable="6000.00" Gross="6000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="405.00" Taxable="18000.00" Gross="18000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <!--41 - 82800-->
+    <!-- Quarter 4-->
+    <TaxDetail CheckDate="2021-10-31" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-10-01" PeriodEndDate="2021-10-31" Tax="55.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="55.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="0" Month3_12="0" />
+        <YTD Tax="460.00" Taxable="20000.00" Gross="20000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-11-30" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-11-01" PeriodEndDate="2021-11-30" Tax="55.00" Taxable="2000.00" Gross="2000.00" Hours="39" Weeks="1" />
+        <QTD Tax="110.00" Taxable="4000.00" Gross="4000.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="0" />
+        <YTD Tax="515.00" Taxable="22000.00" Gross="22000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+    <TaxDetail CheckDate="2021-12-24" PayCycleCode="RAB" TaxCode="41 - 82800" IsPaid="0" Resident="0">
+      <EmployeeDetail SSN="111111986" EmployeeNumber="1986">
+        <Daily PeriodStartDate="2021-12-01" PeriodEndDate="2021-12-31" Tax="55.00" Taxable="4000.00" Gross="4500.00" Hours="39" Weeks="1" />
+        <QTD Tax="165.00" Taxable="8000.00" Gross="8500.00" Hours="39" Weeks="1" Month1_12="1" Month2_12="1" Month3_12="1" />
+        <YTD Tax="570.00" Taxable="28500.00" Gross="29000.00" />
+      </EmployeeDetail>
+    </TaxDetail>
+  </Company>
+</CompanyImport>
